@@ -258,13 +258,7 @@ header {
 
 .header__img--wrapper {
   padding: 20px;
-
-  /* Added this after the tutorial to 
-  show it over the wave on larger screens */
   z-index: 50;
-
-  /* Added this after the tutorial to 
-  make landing page responsive on laptops */
   max-height: 50vh;
 }
 
@@ -888,6 +882,14 @@ select {
 }
 
 /* SMALL PHONES, LARGE SMARTPHONES */
+@media (max-width: 605px) {
+  .book__img {
+    height: 20rem;
+    transition: all 300ms ease;
+    cursor: not-allowed;
+  }
+}
+
 @media (max-width: 550px) {
   .btn__menu {
     display: block;
@@ -933,5 +935,23 @@ select {
   .close__btn {
     width: 25px;
     height: 25px;
+  }
+
+  .book__img {
+    height: 16rem;
+    transition: all 300ms ease;
+    cursor: not-allowed;
+  }
+}
+
+@media (max-width: 410px) {
+  .book__img {
+    height: 14rem;
+    transition: all 300ms ease;
+    cursor: not-allowed;
+  }
+
+  .book__title {
+    font-size: 16px;
   }
 }
