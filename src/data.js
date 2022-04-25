@@ -39,7 +39,7 @@ export const bookData = [
   {
     id: 5,
     title: 'The Changing World Order',
-    url: 'https://covers.openlibrary.org/b/id/10452559-L.jpg',
+    url: 'https://covers.openlibrary.org/b/id/12725957-L.jpg',
     originalPrice: 35,
     salePrice: null,
     rating: 4,
