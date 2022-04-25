@@ -11,7 +11,7 @@ const Book = ({ book }) => {
     setLoading(true);
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 300);
+    }, 400);
     return () => clearTimeout(timer);
   }, [book]);
 
