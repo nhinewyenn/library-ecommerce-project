@@ -1,27 +1,29 @@
 import React from 'react';
-import UndrawBooks from "../assets/Undraw_Books.svg"
+import { Link } from 'react-router-dom';
+import UndrawBooks from '../assets/Undraw_Books.svg';
 
 const Landing = () => {
   return (
-    <section id='landing'>
+    <section id="landing">
       <header>
         <div className="header__container">
           <div className="header__description">
             <h1>Australia's most awarded library platform</h1>
-            <h2>Find your dream book with <span className='purple'>Library</span></h2>
-            <a href="#features">
+            <h2>
+              Find your dream book with <span className="purple">Library</span>
+            </h2>
+            <Link to="/books">
               <button className="btn">Browse books</button>
-            </a>
+            </Link>
           </div>
 
           <figure className="header__img--wrapper">
-          <img src={UndrawBooks} alt="Undraw Books" />
+            <img src={UndrawBooks} alt="Undraw Books" />
           </figure>
-          
         </div>
       </header>
     </section>
   );
-}
+};
 
 export default Landing;
