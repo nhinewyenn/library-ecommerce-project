@@ -5,8 +5,9 @@ export const bookData = [
     title: 'Crack the Coding Interview',
     url: 'https://covers.openlibrary.org/b/id/8091016-L.jpg',
     originalPrice: 49.95,
-    salePrice: 14.95,
+    salePrice: 27.95,
     rating: 4.5,
+    desc: `Learn how to uncover the hints and hidden details in a question, discover how to break down a problem into manageable chunks, develop techniques to unstick yourself when stuck, learn (or re-learn) core computer science concepts, and practice on 189 interview questions and solutions.`,
   },
   {
     id: 2,
@@ -15,6 +16,7 @@ export const bookData = [
     originalPrice: 39,
     salePrice: null,
     rating: 5,
+    desc: `No matter your goals, Atomic Habits offers a proven framework for improving--every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.`,
   },
   {
     id: 3,
@@ -23,6 +25,7 @@ export const bookData = [
     originalPrice: 29,
     salePrice: null,
     rating: 5,
+    desc: `For David Goggins, childhood was a nightmare — poverty, prejudice, and physical abuse colored his days and haunted his nights. But through self-discipline, mental toughness, and hard work, Goggins transformed himself from a depressed, overweight young man with no future into a U.S. Armed Forces icon and one of the world's top endurance athletes. The only man in history to complete elite training as a Navy SEAL, Army Ranger, and Air Force Tactical Air Controller, he went on to set records in numerous endurance events, inspiring Outside magazine to name him “The Fittest (Real) Man in America.”`,
   },
   {
     id: 4,
@@ -31,14 +34,17 @@ export const bookData = [
     originalPrice: 44,
     salePrice: 19,
     rating: 4.5,
+    desc: `'Deep work' is the ability to focus without distraction on a cognitively demanding task. Coined by author and professor Cal Newport on his popular blog Study Hacks, deep work will make you better at what you do, let you achieve more in less time and provide the sense of true fulfilment that comes from the mastery of a skill. In short, deep work is like a superpower in our increasingly competitive economy.`,
   },
   {
     id: 5,
-    title: 'The 10X Rule',
-    url: 'https://covers.openlibrary.org/b/id/9978588-L.jpg',
-    originalPrice: 32,
+    title: 'The Changing World Order',
+    url: 'https://covers.openlibrary.org/b/id/10452559-L.jpg',
+    originalPrice: 35,
     salePrice: null,
     rating: 4,
+    desc: `Looking back across five hundred years of history and nine major empires - including the Dutch, the British and the American - The Changing World Order puts into perspective the cycles and forces that have driven the successes and failures of all the world’s major countries throughout history.
+    Dalio reveals the timeless and universal dynamics that were behind these shifts, while also offering practical principles for policymakers, business leaders, investors and others operating in this environment.`,
   },
   {
     id: 6,
@@ -46,7 +52,8 @@ export const bookData = [
     url: 'https://covers.openlibrary.org/b/id/7737110-L.jpg',
     originalPrice: 70,
     salePrice: 12.5,
-    rating: 5,
+    rating: 3,
+    desc: `In Sell or Be Sold, Cardone breaks down the techniques and approaches necessary to master the art of selling in any avenue. You will learn how to handle rejection, turn around negative situations, shorten sales cycles, and guarantee yourself greatness. Cardone will also teach you the success essentials of: Selling in a bad economy, Overcoming call reluctance, Filling your pipeline with new business & Staying positive, despite rejection`,
   },
   {
     id: 7,
@@ -55,14 +62,16 @@ export const bookData = [
     originalPrice: 11,
     salePrice: 10,
     rating: 4,
+    desc: `Rich Dad Poor Dad is Robert's story of growing up with two dads his real father and the father of his best friend, his rich dad and the ways in which both men shaped his thoughts about money and investing. The book explodes the myth that you need to earn a high income to be rich and explains the difference between working for money and having your money work for you. `,
   },
   {
     id: 8,
-    title: 'Cashflow Quadrant',
-    url: 'https://covers.openlibrary.org/b/id/1954899-L.jpg',
-    originalPrice: 38,
-    salePrice: 17.95,
-    rating: 3.5,
+    title: '21 Lessons for the 21st Century',
+    url: 'https://covers.openlibrary.org/b/id/10108277-L.jpg',
+    originalPrice: 40,
+    salePrice: 25,
+    rating: 4.5,
+    desc: `Yuval Noah Harari takes us on a thrilling journey through today’s most urgent issues. The golden thread running through his exhilarating new book is the challenge of maintaining our collective and individual focus in the face of constant and disorienting change. Are we still capable of understanding the world we have created? `,
   },
   {
     id: 9,
@@ -71,6 +80,7 @@ export const bookData = [
     originalPrice: 35,
     salePrice: 19.95,
     rating: 4,
+    desc: `These are the laws of power in their unvarnished essence—the philosophies of Machiavelli (The Prince), Sun-tzu (The Art of War), Carl von Clausewitz, Talleyrand, the great seducer Casanova, con man Yellow Kid Weil, and other legendary thinkers and schemers. They teach prudence, stealth, mastery of one's emotions, the art of deception, and the total absence of mercy. Like it or not, all have practical applications in real life.`,
   },
   {
     id: 10,
@@ -79,30 +89,35 @@ export const bookData = [
     originalPrice: 40,
     salePrice: null,
     rating: 5,
+    desc: `Throughout your life, you've had parents, coaches, teachers, friends and mentors who have pushed you to be better than your excuses and bigger than your fears.  What if the secret to having the confidence and courage to enrich your life and work is simply knowing how to push yourself? Using the science of habits, riveting stories and surprising facts from some of the most famous moments in history, art and business, Mel Robbins will explain the power of a "push moment."  Then, she'll give you one simple tool you can use to become your greatest self.`,
   },
   {
     id: 11,
     title: 'How to Win Friends & Influence People',
     url: 'https://covers.openlibrary.org/b/id/7895280-L.jpg',
     originalPrice: 30,
-    salePrice: 20,
+    salePrice: null,
     rating: 5,
+    desc: `This book will help you solve one of the biggest problems you face: how to get along with and influence people in your daily business and social contacts.
+    How to Win Friends & Influence People can help you achieve these important goals: Get out of a mental rut, think new thoughts, acquire new visions, discover new ambitions; Make friends easily and quickly; Increase your popularity; Win people to your way of thinking; Increase your influence, your prestige, your ability to get things done; Handle complaints, avoid arguments; Become a better speaker and more entertaining conversationalist `,
   },
   {
     id: 12,
-    title: 'Mastery',
+    title: 'The Concise Mastery',
     url: 'https://covers.openlibrary.org/b/id/8479576-L.jpg',
     originalPrice: 30,
     salePrice: 12.95,
     rating: 4.5,
+    desc: `The perfect pocketbook gift for the power-hungry - from 'the modern Machiavelli', Robert Greene, international bestselling sensation author of The 48 Laws of Power, Seduction and War. This concise version of the business classic Mastery provides a shortcut to Greene's powerful new tools for achieving greatness. Around the globe, people are facing the same problem - that we are born as individuals but are forced to conform to the rules of society if we want to succeed. To see our uniqueness expressed in our achievements, we must first learn the rules - and then change them completely.`,
   },
   {
     id: 13,
     title: 'Sapiens: A Brief History of Humankind',
     url: 'https://covers.openlibrary.org/b/id/8634250-L.jpg',
     originalPrice: 30,
-    salePrice: 14.99,
+    salePrice: 20.99,
     rating: 4.4,
+    desc: `In Sapiens, Dr Yuval Noah Harari spans the whole of human history, from the very first humans to walk the earth to the radical – and sometimes devastating – breakthroughs of the Cognitive, Agricultural and Scientific Revolutions. Drawing on insights from biology, anthropology, palaeontology and economics, he explores how the currents of history have shaped our human societies, the animals and plants around us, and even our personalities. Have we become happier as history has unfolded? Can we ever free our behaviour from the heritage of our ancestors? And what, if anything, can we do to influence the course of the centuries to come? `,
   },
   {
     id: 14,
@@ -111,6 +126,7 @@ export const bookData = [
     originalPrice: 12.5,
     salePrice: null,
     rating: 4.1,
+    desc: `In 2009 Malala Yousafzai began writing a blog on BBC Urdu about life in the Swat Valley as the Taliban gained control, at times banning girls from attending school. When her identity was discovered, Malala began to appear in both Pakistani and international media, advocating the freedom to pursue education for all. In October 2011, gunmen boarded Malala's school bus and shot her in the face, a bullet passing through her head and into her shoulder. Remarkably, Malala survived the shooting. At a very young age, Malala Yousafzai has become a worldwide symbol of courage and hope. Her shooting has sparked a wave of solidarity across Pakistan, not to mention globally, for the right to education, freedom from terror and female emancipation. `,
   },
   {
     id: 15,
@@ -119,6 +135,9 @@ export const bookData = [
     originalPrice: 15.99,
     salePrice: null,
     rating: 4.5,
+    desc: `At the age of thirty-six, on the verge of completing a decade’s training as a neurosurgeon, Paul Kalanithi was diagnosed with inoperable lung cancer. One day he was a doctor treating the dying, the next he was a patient struggling to live.
+     When Breath Becomes Air chronicles Kalanithi’s transformation from a medical student asking what makes a virtuous and meaningful life into a neurosurgeon working in the core of human identity – the brain – and finally into a patient and a new father.
+    What makes life worth living in the face of death? What do you do when when life is catastrophically interrupted? What does it mean to have a child as your own life fades away? Paul Kalanithi died while working on this profoundly moving book, yet his words live on as a guide to us all. When Breath Becomes Air is a life-affirming reflection on facing our mortality and on the relationship between doctor and patient, from a gifted writer who became both. `,
   },
   {
     id: 16,
@@ -127,5 +146,6 @@ export const bookData = [
     originalPrice: 25,
     salePrice: 14.99,
     rating: 4.2,
+    desc: `On August 6, 1945, Hiroshima was destroyed by the first atom bomb ever dropped on a city. This book, John Hersey's journalistic masterpiece, tells what happened on that day. Told through the memories of survivors, this timeless, powerful and compassionate document has become a classic "that stirs the conscience of humanity" (The New York Times).`,
   },
 ];
