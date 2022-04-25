@@ -3,7 +3,7 @@ import { FaBars, FaShoppingCart, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import LibraryLogo from '../assets/Library.svg';
 
-const Nav = () => {
+const Nav = ({ noOfItems }) => {
   function openMenu() {
     document.body.classList += ' menu--open';
   }
@@ -37,7 +37,7 @@ const Nav = () => {
             <Link to="/cart" className="nav__link">
               <FaShoppingCart />
             </Link>
-            <span className="cart__length">2</span>
+            {noOfItems > 0 && <span className="cart__length">{noOfItems}</span>}
           </li>
         </ul>
 

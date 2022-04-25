@@ -1,14 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import Rating from '../components/UI/Rating';
 import { FaArrowLeft } from 'react-icons/fa';
 import Price from '../components/UI/Price';
 import Book from '../components/UI/Book';
 
-const BookInfo = ({ bookData }) => {
+const BookInfo = ({ bookData, addToCart, cart }) => {
+  const [added, setAdded] = useState(false);
   const { bookId } = useParams();
   const books = bookData.find(book => Number(book.id) === Number(bookId));
-  console.log(books);
+
+  function addBookToCart(book) {
+    setAdded(true);
+    addToCart(book);
+  }
+
+  function existingBook() {
+    return cart.find(book => +book.id === +bookId);
+  }
 
   return (
     <div id="books__body">
@@ -46,7 +55,17 @@ const BookInfo = ({ bookData }) => {
                   <h3 className="book__summary--title">Summary</h3>
                   <p className="book__summary--para">{books.desc}</p>
                 </div>
-                <button className="btn">Add to cart</button>
+
+                {/* Change button when book has been added */}
+                {added && existingBook ? (
+                  <Link to="/cart" className="book__link">
+                    <button className="btn">Checkout</button>
+                  </Link>
+                ) : (
+                  <button className="btn" onClick={() => addBookToCart(books)}>
+                    Add to cart
+                  </button>
+                )}
               </div>
             </div>
           </div>
