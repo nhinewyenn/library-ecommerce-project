@@ -517,6 +517,7 @@ FOOTER
   position: relative;
   flex-direction: column;
   padding: 25px;
+  z-index: 9999;
 }
 
 .modal__title {
